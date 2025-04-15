@@ -1,0 +1,33 @@
+[0.022s] Invoking command in '/home/elee4000/Desktop/ros2_NEW_ws/src/build/agitr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elee4000/Desktop/ros2_NEW_ws/src/build/agitr -- -j4 -l4
+[0.065s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.445s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.583s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.619s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.658s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.865s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.872s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.052s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.082s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.121s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.270s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.441s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.441s] -- Configured cppcheck include dirs: 
+[1.441s] -- Configured cppcheck exclude dirs and/or files: 
+[1.442s] -- Added test 'lint_cmake' to check CMake code style
+[1.443s] -- Added test 'uncrustify' to check C / C++ code style
+[1.443s] -- Configured uncrustify additional arguments: 
+[1.444s] -- Added test 'xmllint' to check XML markup files
+[1.445s] -- Configuring done (1.4s)
+[1.474s] -- Generating done (0.0s)
+[1.488s] -- Build files have been written to: /home/elee4000/Desktop/ros2_NEW_ws/src/build/agitr
+[1.565s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o[0m
+[1.623s] [100%] [32m[1mLinking CXX executable hello_world[0m
+[1.918s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[1.918s] (.text+0x1c): undefined reference to `main'
+[1.919s] /usr/bin/ld: (.text+0x20): undefined reference to `main'
+[1.922s] collect2: error: ld returned 1 exit status
+[1.925s] gmake[2]: *** [CMakeFiles/hello_world.dir/build.make:163: hello_world] Error 1
+[1.926s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_world.dir/all] Error 2
+[1.926s] gmake: *** [Makefile:146: all] Error 2
+[1.930s] Invoked command in '/home/elee4000/Desktop/ros2_NEW_ws/src/build/agitr' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elee4000/Desktop/ros2_NEW_ws/src/build/agitr -- -j4 -l4

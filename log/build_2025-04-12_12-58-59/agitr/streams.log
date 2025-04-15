@@ -1,0 +1,32 @@
+[0.029s] Invoking command in '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elee4000/Desktop/ros2_NEW_ws/build/agitr -- -j4 -l4
+[0.056s] Change Dir: '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.056s] 
+[0.060s] Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j4 -l4
+[0.086s] /usr/bin/cmake -S/home/elee4000/Desktop/ros2_NEW_ws/src/agitr -B/home/elee4000/Desktop/ros2_NEW_ws/build/agitr --check-build-system CMakeFiles/Makefile.cmake 0
+[0.114s] Re-run cmake file: Makefile older than: /home/elee4000/Desktop/ros2_NEW_ws/src/agitr/CMakeLists.txt
+[0.188s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.824s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.923s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.945s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.976s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.165s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.170s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.445s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.520s] [31mCMake Error at CMakeLists.txt:26 (install):
+[1.520s]   install TARGETS given target "geometry_msgs" which does not exist.
+[1.520s] 
+[1.520s] [0m
+[1.521s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.707s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.707s] -- Configured cppcheck include dirs: 
+[1.707s] -- Configured cppcheck exclude dirs and/or files: 
+[1.712s] -- Added test 'lint_cmake' to check CMake code style
+[1.716s] -- Added test 'uncrustify' to check C / C++ code style
+[1.716s] -- Configured uncrustify additional arguments: 
+[1.717s] -- Added test 'xmllint' to check XML markup files
+[1.720s] -- Configuring incomplete, errors occurred!
+[1.746s] gmake: *** [Makefile:270: cmake_check_build_system] Error 1
+[1.746s] 
+[1.747s] Invoked command in '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elee4000/Desktop/ros2_NEW_ws/build/agitr -- -j4 -l4

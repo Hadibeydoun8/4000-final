@@ -1,0 +1,4 @@
+source;share/agitr/local_setup.bash
+source;share/agitr/local_setup.dsv
+source;share/agitr/local_setup.sh
+source;share/agitr/local_setup.zsh

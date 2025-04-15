@@ -1,0 +1,60 @@
+[0.047s] Invoking command in '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elee4000/Desktop/ros2_NEW_ws/build/agitr -- -j4 -l4
+[0.105s] Change Dir: '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.105s] 
+[0.106s] Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j4 -l4
+[0.157s] /usr/bin/cmake -S/home/elee4000/Desktop/ros2_NEW_ws/src/agitr -B/home/elee4000/Desktop/ros2_NEW_ws/build/agitr --check-build-system CMakeFiles/Makefile.cmake 0
+[0.314s] /usr/bin/cmake -E cmake_progress_start /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles /home/elee4000/Desktop/ros2_NEW_ws/build/agitr//CMakeFiles/progress.marks
+[0.348s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.352s] gmake[1]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.353s] /usr/bin/gmake  -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/depend
+[0.356s] /usr/bin/gmake  -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/depend
+[0.366s] /usr/bin/gmake  -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/depend
+[0.389s] gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.390s] cd /home/elee4000/Desktop/ros2_NEW_ws/build/agitr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/hello_world.dir/DependInfo.cmake "--color="
+[0.391s] gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.393s] cd /home/elee4000/Desktop/ros2_NEW_ws/build/agitr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/publish_read_analog.dir/DependInfo.cmake "--color="
+[0.405s] gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.405s] cd /home/elee4000/Desktop/ros2_NEW_ws/build/agitr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/subsrcibe_positon.dir/DependInfo.cmake "--color="
+[0.461s] gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.462s] /usr/bin/gmake  -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/build
+[0.493s] gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.493s] gmake[2]: Nothing to be done for 'CMakeFiles/publish_read_analog.dir/build'.
+[0.494s] gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.499s] gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.500s] /usr/bin/gmake  -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/build
+[0.511s] gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.512s] gmake[2]: Nothing to be done for 'CMakeFiles/subsrcibe_positon.dir/build'.
+[0.513s] gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.556s] [ 33%] Built target publish_read_analog
+[0.563s] gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.564s] /usr/bin/gmake  -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
+[0.571s] gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.571s] gmake[2]: Nothing to be done for 'CMakeFiles/hello_world.dir/build'.
+[0.571s] gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.601s] [ 66%] Built target subsrcibe_positon
+[0.607s] [100%] Built target hello_world
+[0.610s] gmake[1]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[0.611s] /usr/bin/cmake -E cmake_progress_start /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles 0
+[0.665s] 
+[0.682s] Invoked command in '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elee4000/Desktop/ros2_NEW_ws/build/agitr -- -j4 -l4
+[0.733s] Invoking command in '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/elee4000/Desktop/ros2_NEW_ws/build/agitr
+[0.767s] -- Install configuration: ""
+[0.772s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/lib/agitr/hello_world
+[0.775s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/lib/agitr/subsrcibe_positon
+[0.779s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/lib/agitr/publish_read_analog
+[0.781s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/ament_index/resource_index/package_run_dependencies/agitr
+[0.786s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/ament_index/resource_index/parent_prefix_path/agitr
+[0.786s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/environment/ament_prefix_path.sh
+[0.786s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/environment/ament_prefix_path.dsv
+[0.787s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/environment/path.sh
+[0.787s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/environment/path.dsv
+[0.787s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/local_setup.bash
+[0.787s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/local_setup.sh
+[0.787s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/local_setup.zsh
+[0.787s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/local_setup.dsv
+[0.788s] -- Installing: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/package.dsv
+[0.788s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/ament_index/resource_index/packages/agitr
+[0.788s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/cmake/agitrConfig.cmake
+[0.788s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/cmake/agitrConfig-version.cmake
+[0.788s] -- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/package.xml
+[0.795s] Invoked command in '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/elee4000/Desktop/ros2_NEW_ws/build/agitr

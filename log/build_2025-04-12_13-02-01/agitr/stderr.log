@@ -1,0 +1,9 @@
+[01m[K/home/elee4000/Desktop/ros2_NEW_ws/src/agitr/src/subsrcibe_positon.cpp:[m[K In member function ‘[01m[Kvoid subPose::[01;32m[Ktopic_callback[m[K(const geometry_msgs::msg::Twist&)[m[K’:
+[01m[K/home/elee4000/Desktop/ros2_NEW_ws/src/agitr/src/subsrcibe_positon.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRRCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+   32 |     [01;31m[KRRCLCPP_INFO[m[K(this->get_logger(), "Voltage=%.2f, ATD=%.2f", msg.linear.x, msg.linear.y);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[KRCLCPP_INFO[m[K
+gmake[2]: *** [CMakeFiles/subsrcibe_positon.dir/build.make:79: CMakeFiles/subsrcibe_positon.dir/src/subsrcibe_positon.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/subsrcibe_positon.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:149: all] Error 2

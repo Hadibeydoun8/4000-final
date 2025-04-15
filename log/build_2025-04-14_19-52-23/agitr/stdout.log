@@ -1,0 +1,56 @@
+Change Dir: '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j4 -l4
+/usr/bin/cmake -S/home/elee4000/Desktop/ros2_NEW_ws/src/agitr -B/home/elee4000/Desktop/ros2_NEW_ws/build/agitr --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles /home/elee4000/Desktop/ros2_NEW_ws/build/agitr//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+/usr/bin/gmake  -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/depend
+/usr/bin/gmake  -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/depend
+/usr/bin/gmake  -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/depend
+gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+cd /home/elee4000/Desktop/ros2_NEW_ws/build/agitr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/hello_world.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+cd /home/elee4000/Desktop/ros2_NEW_ws/build/agitr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/publish_read_analog.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+cd /home/elee4000/Desktop/ros2_NEW_ws/build/agitr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/subsrcibe_positon.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+/usr/bin/gmake  -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/build
+gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+gmake[2]: Nothing to be done for 'CMakeFiles/publish_read_analog.dir/build'.
+gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+/usr/bin/gmake  -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/build
+gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+gmake[2]: Nothing to be done for 'CMakeFiles/subsrcibe_positon.dir/build'.
+gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[ 33%] Built target publish_read_analog
+gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+/usr/bin/gmake  -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
+gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+gmake[2]: Nothing to be done for 'CMakeFiles/hello_world.dir/build'.
+gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+[ 66%] Built target subsrcibe_positon
+[100%] Built target hello_world
+gmake[1]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'
+/usr/bin/cmake -E cmake_progress_start /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles 0
+
+-- Install configuration: ""
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/lib/agitr/hello_world
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/lib/agitr/subsrcibe_positon
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/lib/agitr/publish_read_analog
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/ament_index/resource_index/package_run_dependencies/agitr
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/ament_index/resource_index/parent_prefix_path/agitr
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/environment/ament_prefix_path.sh
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/environment/path.sh
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/environment/path.dsv
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/local_setup.bash
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/local_setup.sh
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/local_setup.zsh
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/local_setup.dsv
+-- Installing: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/package.dsv
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/ament_index/resource_index/packages/agitr
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/cmake/agitrConfig.cmake
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/cmake/agitrConfig-version.cmake
+-- Up-to-date: /home/elee4000/Desktop/ros2_NEW_ws/install/agitr/share/agitr/package.xml

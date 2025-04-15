@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000397] (agitr) JobQueued: {'identifier': 'agitr', 'dependencies': OrderedDict()}
+[0.001962] (agitr) JobStarted: {'identifier': 'agitr'}
+[0.025013] (agitr) JobProgress: {'identifier': 'agitr', 'progress': 'cmake'}
+[0.028482] (agitr) JobProgress: {'identifier': 'agitr', 'progress': 'build'}
+[0.029440] (agitr) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr', '--', '-j4', '-l4'], 'cwd': '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'elee4000', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/elee4000', 'OLDPWD': '/home/elee4000/Desktop/ros2_NEW_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1836', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/elee4000/Desktop/ros2_NEW_ws/install:/home/elee4000/Desktop/ros2_NEW_ws/src/install:/home/elee4000/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'elee4000', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elee4000', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/elee4000-desktop:@/tmp/.ICE-unix/1782,unix/elee4000-desktop:/tmp/.ICE-unix/1782', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf0907be_9942_413a_86e8_a36b23ed012a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.5JI342', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/elee4000/Desktop/ros2_NEW_ws/install/agitr:/home/elee4000/Desktop/ros2_NEW_ws/src/install/agitr:/home/elee4000/ros2_ws/install/my_robot_project:/home/elee4000/ros2_ws/install/my_package:/home/elee4000/ros2_ws/install/my_cpp_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/elee4000/Desktop/ros2_NEW_ws/install/agitr:/home/elee4000/Desktop/ros2_NEW_ws/src/install/agitr:/home/elee4000/ros2_ws/install/my_robot_project:/home/elee4000/ros2_ws/install/my_package:/home/elee4000/ros2_ws/install/my_cpp_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.056370] (agitr) StdoutLine: {'line': b"Change Dir: '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[0.057538] (agitr) StdoutLine: {'line': b'\n'}
+[0.057781] (agitr) StdoutLine: {'line': b'Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j4 -l4\n'}
+[0.077701] (agitr) StdoutLine: {'line': b'/usr/bin/cmake -S/home/elee4000/Desktop/ros2_NEW_ws/src/agitr -B/home/elee4000/Desktop/ros2_NEW_ws/build/agitr --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.094795] (agitr) StdoutLine: {'line': b'Re-run cmake file: Makefile older than: /home/elee4000/Desktop/ros2_NEW_ws/src/agitr/CMakeLists.txt\n'}
+[0.099568] (-) TimerEvent: {}
+[0.109484] (agitr) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199681] (-) TimerEvent: {}
+[0.300111] (-) TimerEvent: {}
+[0.401083] (-) TimerEvent: {}
+[0.504761] (-) TimerEvent: {}
+[0.605740] (-) TimerEvent: {}
+[0.670201] (agitr) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.705990] (-) TimerEvent: {}
+[0.720936] (agitr) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.737165] (agitr) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.757420] (agitr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.785570] (agitr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.806165] (-) TimerEvent: {}
+[0.892632] (agitr) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.895602] (agitr) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.906321] (-) TimerEvent: {}
+[1.006854] (-) TimerEvent: {}
+[1.028631] (agitr) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.106971] (-) TimerEvent: {}
+[1.118862] (agitr) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.162427] (agitr) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.207075] (-) TimerEvent: {}
+[1.307481] (-) TimerEvent: {}
+[1.340525] (agitr) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.341136] (agitr) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.341311] (agitr) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.341893] (agitr) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.343479] (agitr) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.343804] (agitr) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.344377] (agitr) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.347079] (agitr) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.407588] (-) TimerEvent: {}
+[1.422966] (agitr) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.446552] (agitr) StdoutLine: {'line': b'-- Build files have been written to: /home/elee4000/Desktop/ros2_NEW_ws/build/agitr\n'}
+[1.461371] (agitr) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles /home/elee4000/Desktop/ros2_NEW_ws/build/agitr//CMakeFiles/progress.marks\n'}
+[1.476514] (agitr) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[1.478425] (agitr) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.478740] (agitr) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/depend\n'}
+[1.479335] (agitr) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/depend\n'}
+[1.480094] (agitr) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/depend\n'}
+[1.480961] (agitr) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.481688] (agitr) StdoutLine: {'line': b'cd /home/elee4000/Desktop/ros2_NEW_ws/build/agitr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/hello_world.dir/DependInfo.cmake "--color="\n'}
+[1.481910] (agitr) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.482076] (agitr) StdoutLine: {'line': b'cd /home/elee4000/Desktop/ros2_NEW_ws/build/agitr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/publish_read_analog.dir/DependInfo.cmake "--color="\n'}
+[1.483950] (agitr) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.484467] (agitr) StdoutLine: {'line': b'cd /home/elee4000/Desktop/ros2_NEW_ws/build/agitr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/src/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr /home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/subsrcibe_positon.dir/DependInfo.cmake "--color="\n'}
+[1.497252] (agitr) StdoutLine: {'line': b'Dependencies file "CMakeFiles/hello_world.dir/src/hello_world.cpp.o.d" is newer than depends file "/home/elee4000/Desktop/ros2_NEW_ws/build/agitr/CMakeFiles/hello_world.dir/compiler_depend.internal".\n'}
+[1.499570] (agitr) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.500014] (agitr) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/build\n'}
+[1.502143] (agitr) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.502893] (agitr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_world\x1b[0m\n'}
+[1.505623] (agitr) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.506049] (agitr) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/build\n'}
+[1.507723] (-) TimerEvent: {}
+[1.508015] (agitr) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.522505] (agitr) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/publish_read_analog.dir/src/publish_read_analog.cpp.o\x1b[0m\n'}
+[1.527640] (agitr) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.528667] (agitr) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/std_msgs -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/publish_read_analog.dir/src/publish_read_analog.cpp.o -MF CMakeFiles/publish_read_analog.dir/src/publish_read_analog.cpp.o.d -o CMakeFiles/publish_read_analog.dir/src/publish_read_analog.cpp.o -c /home/elee4000/Desktop/ros2_NEW_ws/src/agitr/src/publish_read_analog.cpp\n'}
+[1.528919] (agitr) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build\n'}
+[1.529123] (agitr) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/subsrcibe_positon.dir/src/subsrcibe_positon.cpp.o\x1b[0m\n'}
+[1.530739] (agitr) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/std_msgs -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/subsrcibe_positon.dir/src/subsrcibe_positon.cpp.o -MF CMakeFiles/subsrcibe_positon.dir/src/subsrcibe_positon.cpp.o.d -o CMakeFiles/subsrcibe_positon.dir/src/subsrcibe_positon.cpp.o -c /home/elee4000/Desktop/ros2_NEW_ws/src/agitr/src/subsrcibe_positon.cpp\n'}
+[1.535184] (agitr) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.535677] (agitr) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/hello_world.dir/build'.\n"}
+[1.535924] (agitr) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[1.549517] (agitr) StdoutLine: {'line': b'[ 66%] Built target hello_world\n'}
+[1.607849] (-) TimerEvent: {}
+[1.708479] (-) TimerEvent: {}
+[1.809049] (-) TimerEvent: {}
+[1.909853] (-) TimerEvent: {}
+[2.013176] (-) TimerEvent: {}
+[2.114555] (-) TimerEvent: {}
+[2.215856] (-) TimerEvent: {}
+[2.316371] (-) TimerEvent: {}
+[2.416776] (-) TimerEvent: {}
+[2.517178] (-) TimerEvent: {}
+[2.617597] (-) TimerEvent: {}
+[2.717987] (-) TimerEvent: {}
+[2.818423] (-) TimerEvent: {}
+[2.918851] (-) TimerEvent: {}
+[3.019991] (-) TimerEvent: {}
+[3.120415] (-) TimerEvent: {}
+[3.220829] (-) TimerEvent: {}
+[3.321299] (-) TimerEvent: {}
+[3.421751] (-) TimerEvent: {}
+[3.522158] (-) TimerEvent: {}
+[3.625804] (-) TimerEvent: {}
+[3.726206] (-) TimerEvent: {}
+[3.826646] (-) TimerEvent: {}
+[3.927063] (-) TimerEvent: {}
+[4.027530] (-) TimerEvent: {}
+[4.127967] (-) TimerEvent: {}
+[4.228385] (-) TimerEvent: {}
+[4.328830] (-) TimerEvent: {}
+[4.432662] (-) TimerEvent: {}
+[4.535592] (-) TimerEvent: {}
+[4.636017] (-) TimerEvent: {}
+[4.736437] (-) TimerEvent: {}
+[4.836876] (-) TimerEvent: {}
+[4.937296] (-) TimerEvent: {}
+[5.037743] (-) TimerEvent: {}
+[5.138150] (-) TimerEvent: {}
+[5.238556] (-) TimerEvent: {}
+[5.339146] (-) TimerEvent: {}
+[5.439580] (-) TimerEvent: {}
+[5.539986] (-) TimerEvent: {}
+[5.640560] (-) TimerEvent: {}
+[5.743611] (-) TimerEvent: {}
+[5.843994] (-) TimerEvent: {}
+[5.944415] (-) TimerEvent: {}
+[6.047645] (-) TimerEvent: {}
+[6.148104] (-) TimerEvent: {}
+[6.249130] (-) TimerEvent: {}
+[6.298207] (agitr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elee4000/Desktop/ros2_NEW_ws/src/agitr/src/subsrcibe_positon.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid subPose::\x1b[01;32m\x1b[Ktopic_callback\x1b[m\x1b[K(const geometry_msgs::msg::Twist&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.298609] (agitr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elee4000/Desktop/ros2_NEW_ws/src/agitr/src/subsrcibe_positon.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.298768] (agitr) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[KRRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Voltage=%.2f, ATD=%.2f", msg.linear.x, msg.linear.y);\n'}
+[6.298894] (agitr) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.299025] (agitr) StderrLine: {'line': b'      |     \x1b[32m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\n'}
+[6.349252] (-) TimerEvent: {}
+[6.449717] (-) TimerEvent: {}
+[6.550363] (-) TimerEvent: {}
+[6.650806] (-) TimerEvent: {}
+[6.751219] (-) TimerEvent: {}
+[6.851655] (-) TimerEvent: {}
+[6.952068] (-) TimerEvent: {}
+[7.052676] (-) TimerEvent: {}
+[7.153290] (-) TimerEvent: {}
+[7.253763] (-) TimerEvent: {}
+[7.355699] (-) TimerEvent: {}
+[7.456159] (-) TimerEvent: {}
+[7.556667] (-) TimerEvent: {}
+[7.657083] (-) TimerEvent: {}
+[7.757510] (-) TimerEvent: {}
+[7.857942] (-) TimerEvent: {}
+[7.958362] (-) TimerEvent: {}
+[8.058788] (-) TimerEvent: {}
+[8.159196] (-) TimerEvent: {}
+[8.259850] (-) TimerEvent: {}
+[8.360287] (-) TimerEvent: {}
+[8.460722] (-) TimerEvent: {}
+[8.561149] (-) TimerEvent: {}
+[8.661585] (-) TimerEvent: {}
+[8.762035] (-) TimerEvent: {}
+[8.862480] (-) TimerEvent: {}
+[8.962925] (-) TimerEvent: {}
+[9.063365] (-) TimerEvent: {}
+[9.164016] (-) TimerEvent: {}
+[9.268411] (-) TimerEvent: {}
+[9.371596] (-) TimerEvent: {}
+[9.474812] (-) TimerEvent: {}
+[9.577598] (-) TimerEvent: {}
+[9.678459] (-) TimerEvent: {}
+[9.780037] (-) TimerEvent: {}
+[9.857394] (agitr) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable publish_read_analog\x1b[0m\n'}
+[9.860881] (agitr) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/publish_read_analog.dir/link.txt --verbose=1\n'}
+[9.879230] (agitr) StdoutLine: {'line': b'/usr/bin/c++ CMakeFiles/publish_read_analog.dir/src/publish_read_analog.cpp.o -o publish_read_analog  -Wl,-rpath,/opt/ros/jazzy/lib: /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/liblibstatistics_collector.so /opt/ros/jazzy/lib/librcl.so /opt/ros/jazzy/lib/librmw_implementation.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_yaml_param_parser.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libtracetools.so -llttng-ust -llttng-ust-common -rdynamic -ldl /opt/ros/jazzy/lib/librcl_logging_interface.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so /opt/ros/jazzy/lib/libfastcdr.so.2.2.5 /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librcutils.so -ldl -Wl,-rpath-link,/opt/ros/jazzy/lib \n'}
+[9.885581] (-) TimerEvent: {}
+[9.986249] (-) TimerEvent: {}
+[10.077492] (agitr) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/subsrcibe_positon.dir/build.make:79: CMakeFiles/subsrcibe_positon.dir/src/subsrcibe_positon.cpp.o] Error 1\n'}
+[10.077998] (agitr) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[10.078432] (agitr) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/subsrcibe_positon.dir/all] Error 2\n'}
+[10.078890] (agitr) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[10.086348] (-) TimerEvent: {}
+[10.186797] (-) TimerEvent: {}
+[10.287322] (-) TimerEvent: {}
+[10.387893] (-) TimerEvent: {}
+[10.491484] (-) TimerEvent: {}
+[10.592139] (-) TimerEvent: {}
+[10.693030] (-) TimerEvent: {}
+[10.793453] (-) TimerEvent: {}
+[10.810465] (agitr) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[10.848218] (agitr) StdoutLine: {'line': b'[ 83%] Built target publish_read_analog\n'}
+[10.851035] (agitr) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/elee4000/Desktop/ros2_NEW_ws/build/agitr'\n"}
+[10.851562] (agitr) StderrLine: {'line': b'gmake: *** [Makefile:149: all] Error 2\n'}
+[10.854941] (agitr) StdoutLine: {'line': b'\n'}
+[10.858901] (agitr) CommandEnded: {'returncode': 2}
+[10.893530] (-) TimerEvent: {}
+[10.907874] (agitr) JobEnded: {'identifier': 'agitr', 'rc': 2}
+[10.919448] (-) EventReactorShutdown: {}

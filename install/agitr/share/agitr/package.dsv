@@ -1,0 +1,8 @@
+source;share/agitr/hook/cmake_prefix_path.ps1
+source;share/agitr/hook/cmake_prefix_path.dsv
+source;share/agitr/hook/cmake_prefix_path.sh
+source;share/agitr/local_setup.bash
+source;share/agitr/local_setup.dsv
+source;share/agitr/local_setup.ps1
+source;share/agitr/local_setup.sh
+source;share/agitr/local_setup.zsh
