@@ -1,3 +1,6 @@
+/home/elee4000/Desktop/ros2_NEW_ws/src/install/agitr/lib/agitr/hello_world
+/home/elee4000/Desktop/ros2_NEW_ws/src/install/agitr/lib/agitr/subsrcibe_positon
+/home/elee4000/Desktop/ros2_NEW_ws/src/install/agitr/lib/agitr/publish_read_analog
 /home/elee4000/Desktop/ros2_NEW_ws/src/install/agitr/share/ament_index/resource_index/package_run_dependencies/agitr
 /home/elee4000/Desktop/ros2_NEW_ws/src/install/agitr/share/ament_index/resource_index/parent_prefix_path/agitr
 /home/elee4000/Desktop/ros2_NEW_ws/src/install/agitr/share/agitr/environment/ament_prefix_path.sh

@@ -210,6 +210,32 @@ hello_world/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
 .PHONY : hello_world/fast
 
+#=============================================================================
+# Target rules for targets named publish_read_analog
+
+# Build rule for target.
+publish_read_analog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 publish_read_analog
+.PHONY : publish_read_analog
+
+# fast build rule for target.
+publish_read_analog/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/build
+.PHONY : publish_read_analog/fast
+
+#=============================================================================
+# Target rules for targets named subsrcibe_positon
+
+# Build rule for target.
+subsrcibe_positon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 subsrcibe_positon
+.PHONY : subsrcibe_positon
+
+# fast build rule for target.
+subsrcibe_positon/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/build
+.PHONY : subsrcibe_positon/fast
+
 src/hello_world.o: src/hello_world.cpp.o
 .PHONY : src/hello_world.o
 
@@ -234,6 +260,54 @@ src/hello_world.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/src/hello_world.cpp.s
 .PHONY : src/hello_world.cpp.s
 
+src/publish_read_analog.o: src/publish_read_analog.cpp.o
+.PHONY : src/publish_read_analog.o
+
+# target to build an object file
+src/publish_read_analog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/src/publish_read_analog.cpp.o
+.PHONY : src/publish_read_analog.cpp.o
+
+src/publish_read_analog.i: src/publish_read_analog.cpp.i
+.PHONY : src/publish_read_analog.i
+
+# target to preprocess a source file
+src/publish_read_analog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/src/publish_read_analog.cpp.i
+.PHONY : src/publish_read_analog.cpp.i
+
+src/publish_read_analog.s: src/publish_read_analog.cpp.s
+.PHONY : src/publish_read_analog.s
+
+# target to generate assembly for a file
+src/publish_read_analog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_read_analog.dir/build.make CMakeFiles/publish_read_analog.dir/src/publish_read_analog.cpp.s
+.PHONY : src/publish_read_analog.cpp.s
+
+src/subsrcibe_positon.o: src/subsrcibe_positon.cpp.o
+.PHONY : src/subsrcibe_positon.o
+
+# target to build an object file
+src/subsrcibe_positon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/src/subsrcibe_positon.cpp.o
+.PHONY : src/subsrcibe_positon.cpp.o
+
+src/subsrcibe_positon.i: src/subsrcibe_positon.cpp.i
+.PHONY : src/subsrcibe_positon.i
+
+# target to preprocess a source file
+src/subsrcibe_positon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/src/subsrcibe_positon.cpp.i
+.PHONY : src/subsrcibe_positon.cpp.i
+
+src/subsrcibe_positon.s: src/subsrcibe_positon.cpp.s
+.PHONY : src/subsrcibe_positon.s
+
+# target to generate assembly for a file
+src/subsrcibe_positon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subsrcibe_positon.dir/build.make CMakeFiles/subsrcibe_positon.dir/src/subsrcibe_positon.cpp.s
+.PHONY : src/subsrcibe_positon.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +324,17 @@ help:
 	@echo "... agitr_uninstall"
 	@echo "... uninstall"
 	@echo "... hello_world"
+	@echo "... publish_read_analog"
+	@echo "... subsrcibe_positon"
 	@echo "... src/hello_world.o"
 	@echo "... src/hello_world.i"
 	@echo "... src/hello_world.s"
+	@echo "... src/publish_read_analog.o"
+	@echo "... src/publish_read_analog.i"
+	@echo "... src/publish_read_analog.s"
+	@echo "... src/subsrcibe_positon.o"
+	@echo "... src/subsrcibe_positon.i"
+	@echo "... src/subsrcibe_positon.s"
 .PHONY : help
 
 

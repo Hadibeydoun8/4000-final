@@ -64,8 +64,9 @@ private:
 	int tty_fd;
 	unsigned char c='D';
     char rxString[40];
-	int ind,atd;
-	float voltage;
+	int ind,atdX, atdY;
+	float voltageX, voltageY;
+	double normalX, normalY;
 	char inchar='b';
 	geometry_msgs::msg::Twist msg;
 	
@@ -90,12 +91,14 @@ void capture_data(){
 							inchar = '\n';
 						}
 					}
-				}
+				 }
 				if (ind<40) {
-					sscanf(rxString,"%*s %d\t%f",&atd, &voltage);
-					printf("ATD: %d\t Voltage: %.2f\n",atd, voltage);
-					msg.linear.x=voltage;
-					msg.linear.y=atd;
+					sscanf(rxString,"d:%d\t%f\t%d\t%f",&atdX, &voltageX, &atdY, &voltageY);
+					normalX = double(voltageX-2.5)/2.5;
+					normalY = double(voltageY-2.5)/2.5;
+					printf("VoltageX: %f\t VoltageY: %.2f\n",normalX, normalY);
+					msg.linear.x=normalX;
+					msg.linear.y=normalY;
 					publisher_->publish(msg);
                     RCLCPP_INFO(this->get_logger(), "Publishing: Linear X = %.2f, Linear Y = %.2f", msg.linear.x, msg.linear.y);
 
